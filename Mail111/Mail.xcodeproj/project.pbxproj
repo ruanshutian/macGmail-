@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58BAC7159B5A0BDEFF1ED3E2 /* libPods-MailTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D67C7DEA2B1B22AEDE060519 /* libPods-MailTests.a */; };
+		77A6D6F4C504A58FE90533C5 /* libPods-Mail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6803156682FA0498342FADB4 /* libPods-Mail.a */; };
+		CDA8E27328813AAF00656E0F /* SubMailView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA8E27128813AAF00656E0F /* SubMailView.m */; };
+		CDA8E27428813AAF00656E0F /* SubMailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDA8E27228813AAF00656E0F /* SubMailView.xib */; };
+		CDF01B61287E99C90004AEF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF01B60287E99C90004AEF9 /* AppDelegate.m */; };
+		CDF01B64287E99C90004AEF9 /* Mail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDF01B62287E99C90004AEF9 /* Mail.xcdatamodeld */; };
+		CDF01B66287E99CB0004AEF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF01B65287E99CB0004AEF9 /* Assets.xcassets */; };
+		CDF01B69287E99CB0004AEF9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDF01B67287E99CB0004AEF9 /* MainMenu.xib */; };
+		CDF01B6B287E99CB0004AEF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF01B6A287E99CB0004AEF9 /* main.m */; };
+		CDF01B76287E99CB0004AEF9 /* MailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF01B75287E99CB0004AEF9 /* MailTests.m */; };
+		CDF01B80287E99CB0004AEF9 /* MailUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF01B7F287E99CB0004AEF9 /* MailUITests.m */; };
+		CDF01B82287E99CB0004AEF9 /* MailUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF01B81287E99CB0004AEF9 /* MailUITestsLaunchTests.m */; };
+		CDF01B8F287E9B710004AEF9 /* YYModel in Resources */ = {isa = PBXBuildFile; fileRef = CDF01B8E287E9B710004AEF9 /* YYModel */; };
+		CDF01B92287E9BA20004AEF9 /* MainWindowsController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF01B91287E9BA20004AEF9 /* MainWindowsController.m */; };
+		CDF01B94287E9BA60004AEF9 /* MainWindowsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDF01B93287E9BA60004AEF9 /* MainWindowsController.xib */; };
+		CDF01B97287E9BAF0004AEF9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF01B96287E9BAF0004AEF9 /* MainViewController.m */; };
+		CDF01B99287E9BB60004AEF9 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDF01B98287E9BB60004AEF9 /* MainViewController.xib */; };
+		CDF01B9C287E9BBE0004AEF9 /* MailView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF01B9B287E9BBE0004AEF9 /* MailView.m */; };
+		CDF01B9E287E9BC30004AEF9 /* MailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDF01B9D287E9BC30004AEF9 /* MailView.xib */; };
+		CDF01BA1287E9BCB0004AEF9 /* CellTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF01BA0287E9BCB0004AEF9 /* CellTableView.m */; };
+		DD4B51C492FDAD5B86CDE414 /* libPods-Mail-MailUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D3BB901EA35A4EDA913E9A /* libPods-Mail-MailUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDF01B72287E99CB0004AEF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF01B54287E99C90004AEF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF01B5B287E99C90004AEF9;
+			remoteInfo = Mail;
+		};
+		CDF01B7C287E99CB0004AEF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF01B54287E99C90004AEF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF01B5B287E99C90004AEF9;
+			remoteInfo = Mail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24D3BB901EA35A4EDA913E9A /* libPods-Mail-MailUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mail-MailUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		359CA3E2B698F244EB013A16 /* Pods-Mail-MailUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mail-MailUITests.debug.xcconfig"; path = "Target Support Files/Pods-Mail-MailUITests/Pods-Mail-MailUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		37574356694468FCF8F701E1 /* Pods-MailTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailTests.debug.xcconfig"; path = "Target Support Files/Pods-MailTests/Pods-MailTests.debug.xcconfig"; sourceTree = "<group>"; };
+		44EE009BD29E184BC7DCBACD /* Pods-MailTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailTests.release.xcconfig"; path = "Target Support Files/Pods-MailTests/Pods-MailTests.release.xcconfig"; sourceTree = "<group>"; };
+		6803156682FA0498342FADB4 /* libPods-Mail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1141CB26D20C8142FA492A /* Pods-Mail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mail.debug.xcconfig"; path = "Target Support Files/Pods-Mail/Pods-Mail.debug.xcconfig"; sourceTree = "<group>"; };
+		C31B279B5C72DBB5C57F974C /* Pods-Mail-MailUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mail-MailUITests.release.xcconfig"; path = "Target Support Files/Pods-Mail-MailUITests/Pods-Mail-MailUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CDA8E27028813AAF00656E0F /* SubMailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubMailView.h; sourceTree = "<group>"; };
+		CDA8E27128813AAF00656E0F /* SubMailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubMailView.m; sourceTree = "<group>"; };
+		CDA8E27228813AAF00656E0F /* SubMailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubMailView.xib; sourceTree = "<group>"; };
+		CDF01B5C287E99C90004AEF9 /* Mail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF01B5F287E99C90004AEF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDF01B60287E99C90004AEF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDF01B63287E99C90004AEF9 /* Mail.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mail.xcdatamodel; sourceTree = "<group>"; };
+		CDF01B65287E99CB0004AEF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDF01B68287E99CB0004AEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CDF01B6A287E99CB0004AEF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDF01B6C287E99CB0004AEF9 /* Mail.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mail.entitlements; sourceTree = "<group>"; };
+		CDF01B71287E99CB0004AEF9 /* MailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF01B75287E99CB0004AEF9 /* MailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailTests.m; sourceTree = "<group>"; };
+		CDF01B7B287E99CB0004AEF9 /* MailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF01B7F287E99CB0004AEF9 /* MailUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailUITests.m; sourceTree = "<group>"; };
+		CDF01B81287E99CB0004AEF9 /* MailUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailUITestsLaunchTests.m; sourceTree = "<group>"; };
+		CDF01B8E287E9B710004AEF9 /* YYModel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = YYModel; sourceTree = "<group>"; };
+		CDF01B90287E9B9B0004AEF9 /* MainWindowsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindowsController.h; sourceTree = "<group>"; };
+		CDF01B91287E9BA20004AEF9 /* MainWindowsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowsController.m; sourceTree = "<group>"; };
+		CDF01B93287E9BA60004AEF9 /* MainWindowsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowsController.xib; sourceTree = "<group>"; };
+		CDF01B95287E9BAA0004AEF9 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CDF01B96287E9BAF0004AEF9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CDF01B98287E9BB60004AEF9 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		CDF01B9A287E9BBA0004AEF9 /* MailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailView.h; sourceTree = "<group>"; };
+		CDF01B9B287E9BBE0004AEF9 /* MailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailView.m; sourceTree = "<group>"; };
+		CDF01B9D287E9BC30004AEF9 /* MailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MailView.xib; sourceTree = "<group>"; };
+		CDF01B9F287E9BC80004AEF9 /* CellTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellTableView.h; sourceTree = "<group>"; };
+		CDF01BA0287E9BCB0004AEF9 /* CellTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellTableView.m; sourceTree = "<group>"; };
+		CDF01BA2287E9C2B0004AEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D67C7DEA2B1B22AEDE060519 /* libPods-MailTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MailTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8766AF8F5F8200AA6764A3D /* Pods-Mail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mail.release.xcconfig"; path = "Target Support Files/Pods-Mail/Pods-Mail.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDF01B59287E99C90004AEF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A6D6F4C504A58FE90533C5 /* libPods-Mail.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF01B6E287E99CB0004AEF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58BAC7159B5A0BDEFF1ED3E2 /* libPods-MailTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF01B78287E99CB0004AEF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4B51C492FDAD5B86CDE414 /* libPods-Mail-MailUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E5693551623BD036531E86A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6803156682FA0498342FADB4 /* libPods-Mail.a */,
+				24D3BB901EA35A4EDA913E9A /* libPods-Mail-MailUITests.a */,
+				D67C7DEA2B1B22AEDE060519 /* libPods-MailTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2B3658597DE2715D462D62F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD1141CB26D20C8142FA492A /* Pods-Mail.debug.xcconfig */,
+				F8766AF8F5F8200AA6764A3D /* Pods-Mail.release.xcconfig */,
+				359CA3E2B698F244EB013A16 /* Pods-Mail-MailUITests.debug.xcconfig */,
+				C31B279B5C72DBB5C57F974C /* Pods-Mail-MailUITests.release.xcconfig */,
+				37574356694468FCF8F701E1 /* Pods-MailTests.debug.xcconfig */,
+				44EE009BD29E184BC7DCBACD /* Pods-MailTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CDF01B53287E99C90004AEF9 = {
+			isa = PBXGroup;
+			children = (
+				CDF01B5E287E99C90004AEF9 /* Mail */,
+				CDF01B74287E99CB0004AEF9 /* MailTests */,
+				CDF01B7E287E99CB0004AEF9 /* MailUITests */,
+				CDF01B5D287E99C90004AEF9 /* Products */,
+				A2B3658597DE2715D462D62F /* Pods */,
+				4E5693551623BD036531E86A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CDF01B5D287E99C90004AEF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDF01B5C287E99C90004AEF9 /* Mail.app */,
+				CDF01B71287E99CB0004AEF9 /* MailTests.xctest */,
+				CDF01B7B287E99CB0004AEF9 /* MailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDF01B5E287E99C90004AEF9 /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				CDF01BA2287E9C2B0004AEF9 /* Info.plist */,
+				CDF01B8E287E9B710004AEF9 /* YYModel */,
+				CDF01B5F287E99C90004AEF9 /* AppDelegate.h */,
+				CDF01B60287E99C90004AEF9 /* AppDelegate.m */,
+				CDF01B65287E99CB0004AEF9 /* Assets.xcassets */,
+				CDF01B67287E99CB0004AEF9 /* MainMenu.xib */,
+				CDF01B6A287E99CB0004AEF9 /* main.m */,
+				CDF01B6C287E99CB0004AEF9 /* Mail.entitlements */,
+				CDF01B62287E99C90004AEF9 /* Mail.xcdatamodeld */,
+				CDF01B90287E9B9B0004AEF9 /* MainWindowsController.h */,
+				CDF01B91287E9BA20004AEF9 /* MainWindowsController.m */,
+				CDF01B93287E9BA60004AEF9 /* MainWindowsController.xib */,
+				CDF01B95287E9BAA0004AEF9 /* MainViewController.h */,
+				CDF01B96287E9BAF0004AEF9 /* MainViewController.m */,
+				CDF01B98287E9BB60004AEF9 /* MainViewController.xib */,
+				CDF01B9A287E9BBA0004AEF9 /* MailView.h */,
+				CDF01B9B287E9BBE0004AEF9 /* MailView.m */,
+				CDF01B9D287E9BC30004AEF9 /* MailView.xib */,
+				CDA8E27028813AAF00656E0F /* SubMailView.h */,
+				CDA8E27128813AAF00656E0F /* SubMailView.m */,
+				CDA8E27228813AAF00656E0F /* SubMailView.xib */,
+				CDF01B9F287E9BC80004AEF9 /* CellTableView.h */,
+				CDF01BA0287E9BCB0004AEF9 /* CellTableView.m */,
+			);
+			path = Mail;
+			sourceTree = "<group>";
+		};
+		CDF01B74287E99CB0004AEF9 /* MailTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF01B75287E99CB0004AEF9 /* MailTests.m */,
+			);
+			path = MailTests;
+			sourceTree = "<group>";
+		};
+		CDF01B7E287E99CB0004AEF9 /* MailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF01B7F287E99CB0004AEF9 /* MailUITests.m */,
+				CDF01B81287E99CB0004AEF9 /* MailUITestsLaunchTests.m */,
+			);
+			path = MailUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDF01B5B287E99C90004AEF9 /* Mail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF01B85287E99CB0004AEF9 /* Build configuration list for PBXNativeTarget "Mail" */;
+			buildPhases = (
+				740638A45AF6D41BF98526FC /* [CP] Check Pods Manifest.lock */,
+				CDF01B58287E99C90004AEF9 /* Sources */,
+				CDF01B59287E99C90004AEF9 /* Frameworks */,
+				CDF01B5A287E99C90004AEF9 /* Resources */,
+				6D1EA6021DFFF8E99904D8FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mail;
+			productName = Mail;
+			productReference = CDF01B5C287E99C90004AEF9 /* Mail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDF01B70287E99CB0004AEF9 /* MailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF01B88287E99CB0004AEF9 /* Build configuration list for PBXNativeTarget "MailTests" */;
+			buildPhases = (
+				EE33F5B917C1B72942550453 /* [CP] Check Pods Manifest.lock */,
+				CDF01B6D287E99CB0004AEF9 /* Sources */,
+				CDF01B6E287E99CB0004AEF9 /* Frameworks */,
+				CDF01B6F287E99CB0004AEF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF01B73287E99CB0004AEF9 /* PBXTargetDependency */,
+			);
+			name = MailTests;
+			productName = MailTests;
+			productReference = CDF01B71287E99CB0004AEF9 /* MailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDF01B7A287E99CB0004AEF9 /* MailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF01B8B287E99CB0004AEF9 /* Build configuration list for PBXNativeTarget "MailUITests" */;
+			buildPhases = (
+				DFE84078B38CCE72D4FF7B77 /* [CP] Check Pods Manifest.lock */,
+				CDF01B77287E99CB0004AEF9 /* Sources */,
+				CDF01B78287E99CB0004AEF9 /* Frameworks */,
+				CDF01B79287E99CB0004AEF9 /* Resources */,
+				3F40CE20488A22E650790529 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF01B7D287E99CB0004AEF9 /* PBXTargetDependency */,
+			);
+			name = MailUITests;
+			productName = MailUITests;
+			productReference = CDF01B7B287E99CB0004AEF9 /* MailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDF01B54287E99C90004AEF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CDF01B5B287E99C90004AEF9 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					CDF01B70287E99CB0004AEF9 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CDF01B5B287E99C90004AEF9;
+					};
+					CDF01B7A287E99CB0004AEF9 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CDF01B5B287E99C90004AEF9;
+					};
+				};
+			};
+			buildConfigurationList = CDF01B57287E99C90004AEF9 /* Build configuration list for PBXProject "Mail" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDF01B53287E99C90004AEF9;
+			productRefGroup = CDF01B5D287E99C90004AEF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDF01B5B287E99C90004AEF9 /* Mail */,
+				CDF01B70287E99CB0004AEF9 /* MailTests */,
+				CDF01B7A287E99CB0004AEF9 /* MailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDF01B5A287E99C90004AEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF01B8F287E9B710004AEF9 /* YYModel in Resources */,
+				CDF01B66287E99CB0004AEF9 /* Assets.xcassets in Resources */,
+				CDA8E27428813AAF00656E0F /* SubMailView.xib in Resources */,
+				CDF01B99287E9BB60004AEF9 /* MainViewController.xib in Resources */,
+				CDF01B94287E9BA60004AEF9 /* MainWindowsController.xib in Resources */,
+				CDF01B69287E99CB0004AEF9 /* MainMenu.xib in Resources */,
+				CDF01B9E287E9BC30004AEF9 /* MailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF01B6F287E99CB0004AEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF01B79287E99CB0004AEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F40CE20488A22E650790529 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mail-MailUITests/Pods-Mail-MailUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mail-MailUITests/Pods-Mail-MailUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mail-MailUITests/Pods-Mail-MailUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D1EA6021DFFF8E99904D8FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mail/Pods-Mail-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mail/Pods-Mail-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mail/Pods-Mail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		740638A45AF6D41BF98526FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mail-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFE84078B38CCE72D4FF7B77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mail-MailUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE33F5B917C1B72942550453 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MailTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDF01B58287E99C90004AEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA8E27328813AAF00656E0F /* SubMailView.m in Sources */,
+				CDF01B64287E99C90004AEF9 /* Mail.xcdatamodeld in Sources */,
+				CDF01BA1287E9BCB0004AEF9 /* CellTableView.m in Sources */,
+				CDF01B6B287E99CB0004AEF9 /* main.m in Sources */,
+				CDF01B92287E9BA20004AEF9 /* MainWindowsController.m in Sources */,
+				CDF01B97287E9BAF0004AEF9 /* MainViewController.m in Sources */,
+				CDF01B61287E99C90004AEF9 /* AppDelegate.m in Sources */,
+				CDF01B9C287E9BBE0004AEF9 /* MailView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF01B6D287E99CB0004AEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF01B76287E99CB0004AEF9 /* MailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF01B77287E99CB0004AEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF01B80287E99CB0004AEF9 /* MailUITests.m in Sources */,
+				CDF01B82287E99CB0004AEF9 /* MailUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDF01B73287E99CB0004AEF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF01B5B287E99C90004AEF9 /* Mail */;
+			targetProxy = CDF01B72287E99CB0004AEF9 /* PBXContainerItemProxy */;
+		};
+		CDF01B7D287E99CB0004AEF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF01B5B287E99C90004AEF9 /* Mail */;
+			targetProxy = CDF01B7C287E99CB0004AEF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDF01B67287E99CB0004AEF9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDF01B68287E99CB0004AEF9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDF01B83287E99CB0004AEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CDF01B84287E99CB0004AEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CDF01B86287E99CB0004AEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD1141CB26D20C8142FA492A /* Pods-Mail.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mail/Mail.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mail/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.zoom.Mail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		CDF01B87287E99CB0004AEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8766AF8F5F8200AA6764A3D /* Pods-Mail.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mail/Mail.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mail/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.zoom.Mail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		CDF01B89287E99CB0004AEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37574356694468FCF8F701E1 /* Pods-MailTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.zoom.MailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mail.app/Contents/MacOS/Mail";
+			};
+			name = Debug;
+		};
+		CDF01B8A287E99CB0004AEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44EE009BD29E184BC7DCBACD /* Pods-MailTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.zoom.MailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mail.app/Contents/MacOS/Mail";
+			};
+			name = Release;
+		};
+		CDF01B8C287E99CB0004AEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 359CA3E2B698F244EB013A16 /* Pods-Mail-MailUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.zoom.MailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = Mail;
+			};
+			name = Debug;
+		};
+		CDF01B8D287E99CB0004AEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31B279B5C72DBB5C57F974C /* Pods-Mail-MailUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.zoom.MailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = Mail;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDF01B57287E99C90004AEF9 /* Build configuration list for PBXProject "Mail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF01B83287E99CB0004AEF9 /* Debug */,
+				CDF01B84287E99CB0004AEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF01B85287E99CB0004AEF9 /* Build configuration list for PBXNativeTarget "Mail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF01B86287E99CB0004AEF9 /* Debug */,
+				CDF01B87287E99CB0004AEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF01B88287E99CB0004AEF9 /* Build configuration list for PBXNativeTarget "MailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF01B89287E99CB0004AEF9 /* Debug */,
+				CDF01B8A287E99CB0004AEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF01B8B287E99CB0004AEF9 /* Build configuration list for PBXNativeTarget "MailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF01B8C287E99CB0004AEF9 /* Debug */,
+				CDF01B8D287E99CB0004AEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDF01B62287E99C90004AEF9 /* Mail.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDF01B63287E99C90004AEF9 /* Mail.xcdatamodel */,
+			);
+			currentVersion = CDF01B63287E99C90004AEF9 /* Mail.xcdatamodel */;
+			path = Mail.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CDF01B54287E99C90004AEF9 /* Project object */;
+}

@@ -1,0 +1,6 @@
+module Pods_Mail_MailUITests {
+  umbrella header "Pods-Mail-MailUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

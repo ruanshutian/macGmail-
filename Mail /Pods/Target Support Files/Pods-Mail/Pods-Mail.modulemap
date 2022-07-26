@@ -1,0 +1,6 @@
+module Pods_Mail {
+  umbrella header "Pods-Mail-umbrella.h"
+
+  export *
+  module * { export * }
+}
