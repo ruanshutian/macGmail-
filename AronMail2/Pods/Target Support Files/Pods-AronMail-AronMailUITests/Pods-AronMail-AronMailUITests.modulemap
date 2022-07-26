@@ -1,6 +1,0 @@
-module Pods_AronMail_AronMailUITests {
-  umbrella header "Pods-AronMail-AronMailUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
