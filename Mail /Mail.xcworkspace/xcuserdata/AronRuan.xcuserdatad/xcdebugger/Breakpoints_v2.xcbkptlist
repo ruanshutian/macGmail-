@@ -128,8 +128,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "366"
             endingLineNumber = "366"
-            landmarkName = "-getEveryRowMailDataFromMailFileName:"
-            landmarkType = "7">
+            landmarkName = "MailViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -144,7 +144,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "253"
             endingLineNumber = "253"
-            landmarkName = "-tableView:viewForTableColumn:row:"
+            landmarkName = "-mailEveryPageViewInit"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -160,7 +160,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "174"
             endingLineNumber = "174"
-            landmarkName = "-backClick"
+            landmarkName = "-leftMenuTableViewClick"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

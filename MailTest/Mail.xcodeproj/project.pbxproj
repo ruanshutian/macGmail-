@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		58BAC7159B5A0BDEFF1ED3E2 /* libPods-MailTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D67C7DEA2B1B22AEDE060519 /* libPods-MailTests.a */; };
 		77A6D6F4C504A58FE90533C5 /* libPods-Mail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6803156682FA0498342FADB4 /* libPods-Mail.a */; };
+		CD0225402892785000A58362 /* Base64urlDecode.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD02253F2892785000A58362 /* Base64urlDecode.mm */; };
 		CD2D6E772886A39900EFA19A /* MailList.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D6E752886A39900EFA19A /* MailList.m */; };
 		CD2D6E782886A39900EFA19A /* MailMenuList.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D6E762886A39900EFA19A /* MailMenuList.m */; };
 		CD2D6E7F2886A3A500EFA19A /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D6E7C2886A3A500EFA19A /* NSObject+YYModel.m */; };
@@ -66,6 +67,33 @@
 		6803156682FA0498342FADB4 /* libPods-Mail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1141CB26D20C8142FA492A /* Pods-Mail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mail.debug.xcconfig"; path = "Target Support Files/Pods-Mail/Pods-Mail.debug.xcconfig"; sourceTree = "<group>"; };
 		C31B279B5C72DBB5C57F974C /* Pods-Mail-MailUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mail-MailUITests.release.xcconfig"; path = "Target Support Files/Pods-Mail-MailUITests/Pods-Mail-MailUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CD0225202892777600A58362 /* parse_error.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = parse_error.hpp; sourceTree = "<group>"; };
+		CD0225212892777600A58362 /* base64_default_url.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base64_default_url.hpp; sourceTree = "<group>"; };
+		CD0225222892777600A58362 /* base64_rfc4648.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base64_rfc4648.hpp; sourceTree = "<group>"; };
+		CD0225232892777600A58362 /* base32_hex.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base32_hex.hpp; sourceTree = "<group>"; };
+		CD0225242892777600A58362 /* hex_default_lower.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = hex_default_lower.hpp; sourceTree = "<group>"; };
+		CD0225252892777600A58362 /* base32_crockford.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base32_crockford.hpp; sourceTree = "<group>"; };
+		CD0225262892777600A58362 /* hex_default_upper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = hex_default_upper.hpp; sourceTree = "<group>"; };
+		CD0225272892777600A58362 /* base32_default_crockford.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base32_default_crockford.hpp; sourceTree = "<group>"; };
+		CD0225292892777600A58362 /* codec.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = codec.hpp; sourceTree = "<group>"; };
+		CD02252A2892777600A58362 /* config.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = config.hpp; sourceTree = "<group>"; };
+		CD02252B2892777600A58362 /* hex.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = hex.hpp; sourceTree = "<group>"; };
+		CD02252C2892777600A58362 /* base32.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base32.hpp; sourceTree = "<group>"; };
+		CD02252D2892777600A58362 /* stream_codec.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stream_codec.hpp; sourceTree = "<group>"; };
+		CD02252E2892777600A58362 /* base64.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base64.hpp; sourceTree = "<group>"; };
+		CD02252F2892777600A58362 /* base64_url.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base64_url.hpp; sourceTree = "<group>"; };
+		CD0225302892777600A58362 /* base64_default_url_unpadded.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base64_default_url_unpadded.hpp; sourceTree = "<group>"; };
+		CD0225312892777600A58362 /* hex_lower.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = hex_lower.hpp; sourceTree = "<group>"; };
+		CD0225322892777600A58362 /* base32_rfc4648.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base32_rfc4648.hpp; sourceTree = "<group>"; };
+		CD0225332892777600A58362 /* base32_default_hex.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base32_default_hex.hpp; sourceTree = "<group>"; };
+		CD0225342892777600A58362 /* base64_default_rfc4648.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base64_default_rfc4648.hpp; sourceTree = "<group>"; };
+		CD0225352892777600A58362 /* base64_url_unpadded.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base64_url_unpadded.hpp; sourceTree = "<group>"; };
+		CD0225372892777600A58362 /* access.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = access.hpp; sourceTree = "<group>"; };
+		CD0225382892777600A58362 /* raw_result_buffer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = raw_result_buffer.hpp; sourceTree = "<group>"; };
+		CD0225392892777600A58362 /* hex_upper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = hex_upper.hpp; sourceTree = "<group>"; };
+		CD02253A2892777600A58362 /* base32_default_rfc4648.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base32_default_rfc4648.hpp; sourceTree = "<group>"; };
+		CD02253F2892785000A58362 /* Base64urlDecode.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Base64urlDecode.mm; sourceTree = "<group>"; };
+		CD0225412892787600A58362 /* Base64UrlDecode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base64UrlDecode.h; sourceTree = "<group>"; };
 		CD2D6E732886A39900EFA19A /* MailList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailList.h; sourceTree = "<group>"; };
 		CD2D6E742886A39900EFA19A /* MailMenuList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailMenuList.h; sourceTree = "<group>"; };
 		CD2D6E752886A39900EFA19A /* MailList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailList.m; sourceTree = "<group>"; };
@@ -175,6 +203,54 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CD02251F2892777600A58362 /* cppcodec */ = {
+			isa = PBXGroup;
+			children = (
+				CD0225202892777600A58362 /* parse_error.hpp */,
+				CD0225212892777600A58362 /* base64_default_url.hpp */,
+				CD0225222892777600A58362 /* base64_rfc4648.hpp */,
+				CD0225232892777600A58362 /* base32_hex.hpp */,
+				CD0225242892777600A58362 /* hex_default_lower.hpp */,
+				CD0225252892777600A58362 /* base32_crockford.hpp */,
+				CD0225262892777600A58362 /* hex_default_upper.hpp */,
+				CD0225272892777600A58362 /* base32_default_crockford.hpp */,
+				CD0225282892777600A58362 /* detail */,
+				CD02252F2892777600A58362 /* base64_url.hpp */,
+				CD0225302892777600A58362 /* base64_default_url_unpadded.hpp */,
+				CD0225312892777600A58362 /* hex_lower.hpp */,
+				CD0225322892777600A58362 /* base32_rfc4648.hpp */,
+				CD0225332892777600A58362 /* base32_default_hex.hpp */,
+				CD0225342892777600A58362 /* base64_default_rfc4648.hpp */,
+				CD0225352892777600A58362 /* base64_url_unpadded.hpp */,
+				CD0225362892777600A58362 /* data */,
+				CD0225392892777600A58362 /* hex_upper.hpp */,
+				CD02253A2892777600A58362 /* base32_default_rfc4648.hpp */,
+			);
+			path = cppcodec;
+			sourceTree = "<group>";
+		};
+		CD0225282892777600A58362 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				CD0225292892777600A58362 /* codec.hpp */,
+				CD02252A2892777600A58362 /* config.hpp */,
+				CD02252B2892777600A58362 /* hex.hpp */,
+				CD02252C2892777600A58362 /* base32.hpp */,
+				CD02252D2892777600A58362 /* stream_codec.hpp */,
+				CD02252E2892777600A58362 /* base64.hpp */,
+			);
+			path = detail;
+			sourceTree = "<group>";
+		};
+		CD0225362892777600A58362 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				CD0225372892777600A58362 /* access.hpp */,
+				CD0225382892777600A58362 /* raw_result_buffer.hpp */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
 		CD2D6E722886A39900EFA19A /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,6 +313,8 @@
 				CD2D6E922886A4DC00EFA19A /* MailViewController.h */,
 				CD2D6E962886A4DC00EFA19A /* MailViewController.m */,
 				CD2D6E942886A4DC00EFA19A /* MailViewController.xib */,
+				CD0225412892787600A58362 /* Base64UrlDecode.h */,
+				CD02253F2892785000A58362 /* Base64urlDecode.mm */,
 			);
 			name = Controller;
 			path = ../../AronMail2/AronMail/Controller;
@@ -256,6 +334,7 @@
 		CDF01B53287E99C90004AEF9 = {
 			isa = PBXGroup;
 			children = (
+				CD02251F2892777600A58362 /* cppcodec */,
 				CD6E919E28891C2C008E1C44 /* GTMBase64-master */,
 				CD2D6E792886A3A500EFA19A /* YYModel */,
 				CDF01B5E287E99C90004AEF9 /* Mail */,
@@ -573,6 +652,7 @@
 				CD6E91A428891C2C008E1C44 /* GTMBase64.m in Sources */,
 				CD2D6E772886A39900EFA19A /* MailList.m in Sources */,
 				CD6E919A2887A653008E1C44 /* CellMailHeaderview.m in Sources */,
+				CD0225402892785000A58362 /* Base64urlDecode.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

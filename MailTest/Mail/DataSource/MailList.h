@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic)NSString*mailSubject;
 
-@property(nonatomic)NSData*mailBody;
+@property(nonatomic)NSString*mailBody;
 @end
 
 NS_ASSUME_NONNULL_END
